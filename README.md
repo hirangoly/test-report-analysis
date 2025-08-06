@@ -1,4 +1,6 @@
-Here’s the simulated dashboard view for sample_test_report.csv:
+https://test-report-analysis-4b5rf7hsnhjlovrjuczm6q.streamlit.app/
+
+Streamlit dashboard contains for sample_test_report.csv:
 
 📄 Raw Test Report (first 5 rows)
 TestCase	Module	Result	Date	Description
@@ -9,19 +11,7 @@ TC-0004	Auth	Pass	2025-07-25	Test case for Reports
 TC-0005	Reports	Fail	2025-07-22	Test case for Checkout
 
 📊 Test Result Summary
-Counts:
-
-Pass → 36
-
-Fail → 12
-
-Skipped → 2
-
-Bar Chart:
-
-mathematica
-Copy
-Edit
+Bar chart with pass, fail, and skipped count
 Pass    ████████████████████████████████
 Fail    ███████
 Skipped █
@@ -35,14 +25,8 @@ TC-0007	Reports	Fail	2025-07-28	Test case for Inventory
 TC-0011	Auth	Fail	2025-07-30	Test case for Payments
 TC-0014	Payments	Fail	2025-07-26	Test case for Auth
 
-📅 Test Case Distribution Over Time (Line Chart)
+📅 Test Case Distribution Over Time (Line Chart) for Pass, Fail and Skipped
 (Simulated view — actual chart in Streamlit would be interactive)
-
-Date	Pass	Fail	Skipped
-2025-07-21	1	0	0
-2025-07-22	2	1	0
-2025-07-23	1	1	0
-...	...	...	...
 
 🔍 Module Filter Example (Payments)
 TestCase	Module	Result	Date	Description
